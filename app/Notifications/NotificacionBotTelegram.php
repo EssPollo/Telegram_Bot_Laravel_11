@@ -39,7 +39,7 @@ class NotificacionBotTelegram extends Notification
     {
         try{
             return (new TelegramMessage)
-            ->to('5173246341')
+            ->to('Ingresa el ID aquí')
             ->content($this->mensaje);
 
         }catch( \Exception $e) {
