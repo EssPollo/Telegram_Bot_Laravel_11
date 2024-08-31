@@ -1,7 +1,7 @@
 <?php
-
-// Reemplaza 'YOUR_BOT_TOKEN' con el token de tu bot
-$botToken = '7282463946:AAFzag9J74FNht341731l_U6XLGEzpDGm7s';
+//Ejecuta 1ro esto php eliminar.php
+// Reemplaza 'TELEGRAM_BOT_TOKEN' con el token de tu bot, este esta en .env o el botFather te lo dio
+$botToken = 'TELEGRAM_BOT_TOKEN';
 $apiUrl = "https://api.telegram.org/bot{$botToken}/deleteWebhook";
 
 // Eliminar el webhook
